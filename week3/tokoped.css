@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.feather{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.headerc{
+    display: flex;
+    justify-content: flex-end;
+    padding: .4em 32px;
+    margin-bottom: 0px;
+    background: rgb(243, 244, 245);
+}
+
+.headerc__left{
+    display: flex;
+    float: left;
+    margin-right:auto;
+    font-size: 12px;
+}
+
+.headerc__right{
+    display:flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.headerc__right label:not(:first-child){
+    margin-left: 10px
+}
+
+.headerc__right label:hover{
+    color: #03ac0e;
+    cursor: pointer;
+}
+
+.headerc__left label:hover{
+    color: #03ac0e;
+    cursor: pointer;
+}
+.headerc__label{
+    margin-bottom: 0;
+}
+
+.navbarc{
+    display:flex;
+    padding: .8em 32px;
+    align-items: center;
+}
+
+.navbarc__logo{
+    width: 145px;
+    height: 32px;
+}
+
+.navbarc__label{
+    font-size: 12px;
+    margin: 0;
+    padding: 0 .8em;
+}
+
+.navbarc__icon{
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 10px;
+}
+
+.navbarc__bottom{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbarc__bottom label:not(:first-child){
+    margin-left: 10px;
+}
+
+.navbar-container{
+    box-shadow: 0px 5px 12px -2px rgba(0,0,0,0.1);
+}
+.input-group{
+
+}
+
+.secondary-btn{
+    border: 1px solid #03ac0e;
+    padding: .3em 1em;
+    color: #03ac0e;
+    font-weight: 600;
+    border-radius: 5px;
+}   
+
+.primary-btn{
+    background: #03ac0e;
+    border: 1px solid #03ac0e;
+    padding: .3em 1em;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 10px;
+}
